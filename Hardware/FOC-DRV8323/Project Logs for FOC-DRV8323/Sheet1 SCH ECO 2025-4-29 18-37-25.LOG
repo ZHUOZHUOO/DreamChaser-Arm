@@ -1,0 +1,4 @@
+Remove Pin=H2-5 From Net=CAN_P
+Remove Pin=H2-6 From Net=CAN_N
+Remove Pin=H3-5 From Net=CAN_P
+Remove Pin=H3-6 From Net=CAN_N
