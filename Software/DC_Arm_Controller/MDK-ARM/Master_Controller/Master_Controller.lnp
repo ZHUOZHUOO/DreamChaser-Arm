@@ -42,6 +42,8 @@
 "master_controller\lib_crc.o"
 "master_controller\lib_filter.o"
 "master_controller\lib_math.o"
+"master_controller\dc_arm_comm.o"
+"master_controller\dc_arm_control.o"
 "master_controller\sys_dwt.o"
 "master_controller\util_adc.o"
 "master_controller\util_fdcan.o"

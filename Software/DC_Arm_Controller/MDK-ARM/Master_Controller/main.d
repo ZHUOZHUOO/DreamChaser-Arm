@@ -45,3 +45,12 @@ master_controller\main.o: ../Core/Inc/spi.h
 master_controller\main.o: ../Core/Inc/tim.h
 master_controller\main.o: ../Core/Inc/usart.h
 master_controller\main.o: ../Core/Inc/gpio.h
+master_controller\main.o: ../MDK-ARM/USER/Main/DC_Arm_Control.h
+master_controller\main.o: ../MDK-ARM/USER/Utility/util_fdcan.h
+master_controller\main.o: ../MDK-ARM/USER/configure.h
+master_controller\main.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\arm_math.h
+master_controller\main.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h
+master_controller\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+master_controller\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+master_controller\main.o: ../MDK-ARM/USER/Main/DC_Arm_Comm.h
+master_controller\main.o: ../MDK-ARM/USER/Main/DC_Arm_Control.h

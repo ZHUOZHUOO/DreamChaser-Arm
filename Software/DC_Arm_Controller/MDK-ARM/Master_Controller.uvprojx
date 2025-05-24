@@ -1297,6 +1297,16 @@
           </Files>
         </Group>
         <Group>
+          <GroupName>Configure</GroupName>
+          <Files>
+            <File>
+              <FileName>configure.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\USER\configure.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>Library</GroupName>
           <Files>
             <File>

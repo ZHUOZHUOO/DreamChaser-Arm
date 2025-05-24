@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "dc_arm_comm.h": "c",
+        "dc_arm_control.h": "c"
+    }
+}
