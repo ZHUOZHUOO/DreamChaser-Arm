@@ -1,0 +1,237 @@
+Removed Pin From Net: NetName=GND Pin=C11-1
+Removed Pin From Net: NetName=3V3 Pin=C11-2
+Removed Pin From Net: NetName=GND Pin=C12-1
+Removed Pin From Net: NetName=GND Pin=C13-1
+Removed Pin From Net: NetName=GND Pin=C16-1
+Removed Pin From Net: NetName=GND Pin=C23-1
+Removed Pin From Net: NetName=GND Pin=C26-2
+Removed Pin From Net: NetName=GND Pin=C36-1
+Removed Pin From Net: NetName=GND Pin=C37-1
+Removed Pin From Net: NetName=GND Pin=C38-1
+Removed Pin From Net: NetName=GND Pin=C39-1
+Removed Pin From Net: NetName=GND Pin=C45-1
+Removed Pin From Net: NetName=GND Pin=C46-1
+Removed Pin From Net: NetName=GND Pin=C47-1
+Removed Pin From Net: NetName=GND Pin=C48-1
+Removed Pin From Net: NetName=GND Pin=C49-1
+Removed Pin From Net: NetName=GND Pin=C50-1
+Removed Pin From Net: NetName=GND Pin=C54-1
+Removed Pin From Net: NetName=GND Pin=C55-1
+Removed Pin From Net: NetName=GND Pin=C56-1
+Removed Pin From Net: NetName=GND Pin=C57-1
+Removed Pin From Net: NetName=GND Pin=C58-2
+Removed Pin From Net: NetName=GND Pin=C59-1
+Removed Pin From Net: NetName=GND Pin=C60-1
+Removed Pin From Net: NetName=GND Pin=C62-1
+Removed Pin From Net: NetName=VIN Pin=C62-2
+Removed Pin From Net: NetName=GND Pin=C63-1
+Removed Pin From Net: NetName=GND Pin=C64-1
+Removed Pin From Net: NetName=+5 Pin=C64-2
+Removed Pin From Net: NetName=GND Pin=C65-1
+Removed Pin From Net: NetName=GND Pin=C66-1
+Removed Pin From Net: NetName=+5 Pin=C67-1
+Removed Pin From Net: NetName=GND Pin=C67-2
+Removed Pin From Net: NetName=3V3 Pin=C68-1
+Removed Pin From Net: NetName=GND Pin=C68-2
+Removed Pin From Net: NetName=GND Pin=C69-1
+Removed Pin From Net: NetName=GND Pin=CN2-1
+Removed Pin From Net: NetName=VIN Pin=CN2-2
+Removed Pin From Net: NetName=GND Pin=D2-3
+Removed Pin From Net: NetName=GND Pin=D2-3
+Removed Pin From Net: NetName=GND Pin=D2-3
+Removed Pin From Net: NetName=GND Pin=D4-3
+Removed Pin From Net: NetName=GND Pin=D4-3
+Removed Pin From Net: NetName=GND Pin=D4-3
+Removed Pin From Net: NetName=GND Pin=R13-1
+Removed Pin From Net: NetName=NetC15_2 Pin=R13-2
+Removed Pin From Net: NetName=GND Pin=R27-1
+Removed Pin From Net: NetName=NetC43_1 Pin=R27-2
+Removed Pin From Net: NetName=VIN Pin=R34-1
+Removed Pin From Net: NetName=VIN Pin=R35-2
+Removed Pin From Net: NetName=+5 Pin=R36-2
+Removed Pin From Net: NetName=GND Pin=R38-1
+Removed Pin From Net: NetName=GND Pin=R39-1
+Removed Pin From Net: NetName=GND Pin=U7-12
+Removed Pin From Net: NetName=GND Pin=U7-21
+Removed Pin From Net: NetName=GND Pin=U13-12
+Removed Pin From Net: NetName=GND Pin=U13-21
+Removed Pin From Net: NetName=NetR37_1 Pin=U14-1
+Removed Pin From Net: NetName=GND Pin=U14-5
+Removed Pin From Net: NetName=VIN Pin=U14-7
+Removed Pin From Net: NetName=GND Pin=U15-3
+Removed Pin From Net: NetName=GND Pin=U16-1
+Removed Pin From Net: NetName=3V3 Pin=U16-2
+Removed Pin From Net: NetName=3V3 Pin=U16-2
+Removed Pin From Net: NetName=+5 Pin=U16-3
+Removed Pin From Net: NetName=GND Pin=U17-3
+Change Component Footprint: Designator=C62 Old Footprint=1210 New Footprint=c0402
+Change Component Footprint: Designator=C64 Old Footprint=1210 New Footprint=c0402
+Change Component Footprint: Designator=C67 Old Footprint=3216 New Footprint=c0402
+Change Component Footprint: Designator=C68 Old Footprint=3216 New Footprint=c0402
+Change Component Footprint: Designator=C63 Old Footprint=c0402 New Footprint=1210
+Change Component Footprint: Designator=C66 Old Footprint=c0402 New Footprint=1210
+Change Component Footprint: Designator=C61 Old Footprint=c0402 New Footprint=3216
+Change Component Footprint: Designator=U14 Old Footprint=QFN-8 3x3 New Footprint=sot-223
+Change Component Footprint: Designator=U16 Old Footprint=sot-223 New Footprint=QFN-8 3x3
+Change Component Comment : Designator=R38 Old Comment=1K次 New Comment=51K次
+Change Component Comment : Designator=R35 Old Comment=10K次 New Comment=1K次
+Change Component Comment : Designator=C62 Old Comment=10uF New Comment=100nF
+Change Component Comment : Designator=C64 Old Comment=10uF New Comment=100nF
+Change Component Comment : Designator=C67 Old Comment=10uF New Comment=100nF
+Change Component Comment : Designator=C68 Old Comment=10uF New Comment=100nF
+Change Component Comment : Designator=R43 Old Comment=20K次 New Comment=10K次
+Change Component Comment : Designator=R36 Old Comment=43K次 New Comment=10K次
+Change Component Comment : Designator=R37 Old Comment=51K次 New Comment=43K次
+Change Component Comment : Designator=C61 Old Comment=100nF New Comment=10uF
+Change Component Comment : Designator=C63 Old Comment=100nF New Comment=10uF
+Change Component Comment : Designator=C66 Old Comment=100nF New Comment=10uF
+Change Component Comment : Designator=U16 Old Comment=AMS1117-3.3 New Comment=MP9943
+Change Component Comment : Designator=U14 Old Comment=MP9943 New Comment=AMS1117-3.3
+Change Component Designator: OldDesignator=C? NewDesignator=C69
+Change component parameters: Designator = "U14" ("U14"); Footprint = "QFN-8 3x3"; UniqueID = "\XEUGKQQY" ("\XEUGKQQY")
+Change component parameters (AddParameter): Name = "Code_JEDEC"; Value = "TO-252-AA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.national.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "LM1117 Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.national.com/ds/LM/LM1117.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "LM1117 Web Page"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.national.com/pf/LM/LM1117.html"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink4Description"; Value = "TD03B Package Page"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink4URL"; Value = "http://www.national.com/packaging/folders/td03b.html"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "CompType"; Value = "LDO IC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "Apr-2006"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "High-Reliability"; Value = "Y"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "National Semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "TO252, Molded, Jedec, 6.8 x 6.10 x 2.30mm Body, 3 Lead, 2.28mm Pitch, Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "TD03B"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageTopMarking"; Value = "NSUZXYTT*LM1117*IDT-3.3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "revD, Feb-2009"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "LM1117IDT-3.3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PinCount"; Value = "3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PowerWise"; Value = "N"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "N"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U16" ("U16"); Footprint = "sot-223"; UniqueID = "\NTYCBGUO" ("\NTYCBGUO")
+Added Component: Designator=C40(3216)
+Added Component: Designator=P1(XT30PW-M)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=R44(R0402)
+Add component (AddParameter): Name = "W"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=C11-1
+Added Pin To Net: NetName=GND Pin=C11-2
+Added Pin To Net: NetName=+5 Pin=C40-1
+Added Pin To Net: NetName=3V3 Pin=C61-1
+Added Pin To Net: NetName=VIN Pin=C64-2
+Added Pin To Net: NetName=+5 Pin=C67-2
+Added Pin To Net: NetName=OLED_RESET Pin=H1-5
+Added Pin To Net: NetName=VIN Pin=P1-+
+Added Pin To Net: NetName=NetC15_2 Pin=R13-1
+Added Pin To Net: NetName=NetC43_1 Pin=R27-1
+Added Pin To Net: NetName=VIN Pin=R34-2
+Added Pin To Net: NetName=GND Pin=R35-1
+Added Pin To Net: NetName=VIN Pin=R36-1
+Added Pin To Net: NetName=+5 Pin=R37-2
+Added Pin To Net: NetName=NetR37_1 Pin=R38-2
+Added Pin To Net: NetName=NetR37_1 Pin=R39-2
+Added Pin To Net: NetName=GND Pin=R44-1
+Added Pin To Net: NetName=3V3 Pin=U4-20
+Added Pin To Net: NetName=3V3 Pin=U14-2
+Added Pin To Net: NetName=3V3 Pin=U14-2
+Added Pin To Net: NetName=+5 Pin=U14-3
+Added Pin To Net: NetName=VIN Pin=U16-7
+Change Net Name : Old Net Name=NetC15_2 New Net Name=W2_1
+Change Net Name : Old Net Name=NetC43_1 New Net Name=W2_2
+Added Pin To Net: NetName=ADC1 Pin=R34-1
+Added Pin To Net: NetName=ADC1 Pin=R35-2
+Added Pin To Net: NetName=ADC1 Pin=U4-8
+Added Net: Name=ADC1
+Added Pin To Net: NetName=A2_1 Pin=C12-1
+Added Pin To Net: NetName=A2_1 Pin=C13-1
+Added Pin To Net: NetName=A2_1 Pin=C16-1
+Added Pin To Net: NetName=A2_1 Pin=C23-1
+Added Pin To Net: NetName=A2_1 Pin=C26-2
+Added Pin To Net: NetName=A2_1 Pin=C36-1
+Added Pin To Net: NetName=A2_1 Pin=C37-1
+Added Pin To Net: NetName=A2_1 Pin=C38-1
+Added Pin To Net: NetName=A2_1 Pin=C39-1
+Added Pin To Net: NetName=A2_1 Pin=C40-2
+Added Pin To Net: NetName=A2_1 Pin=C45-1
+Added Pin To Net: NetName=A2_1 Pin=C46-1
+Added Pin To Net: NetName=A2_1 Pin=C47-1
+Added Pin To Net: NetName=A2_1 Pin=C48-1
+Added Pin To Net: NetName=A2_1 Pin=C49-1
+Added Pin To Net: NetName=A2_1 Pin=C50-1
+Added Pin To Net: NetName=A2_1 Pin=C54-1
+Added Pin To Net: NetName=A2_1 Pin=C55-1
+Added Pin To Net: NetName=A2_1 Pin=C56-1
+Added Pin To Net: NetName=A2_1 Pin=C57-1
+Added Pin To Net: NetName=A2_1 Pin=C58-2
+Added Pin To Net: NetName=A2_1 Pin=C59-1
+Added Pin To Net: NetName=A2_1 Pin=C60-1
+Added Pin To Net: NetName=A2_1 Pin=C61-2
+Added Pin To Net: NetName=A2_1 Pin=C63-1
+Added Pin To Net: NetName=A2_1 Pin=C64-1
+Added Pin To Net: NetName=A2_1 Pin=C65-1
+Added Pin To Net: NetName=A2_1 Pin=C66-1
+Added Pin To Net: NetName=A2_1 Pin=C67-1
+Added Pin To Net: NetName=A2_1 Pin=C68-1
+Added Pin To Net: NetName=A2_1 Pin=D2-3
+Added Pin To Net: NetName=A2_1 Pin=D2-3
+Added Pin To Net: NetName=A2_1 Pin=D2-3
+Added Pin To Net: NetName=A2_1 Pin=D4-3
+Added Pin To Net: NetName=A2_1 Pin=D4-3
+Added Pin To Net: NetName=A2_1 Pin=D4-3
+Added Pin To Net: NetName=A2_1 Pin=P1--
+Added Pin To Net: NetName=A2_1 Pin=R13-2
+Added Pin To Net: NetName=A2_1 Pin=R27-2
+Added Pin To Net: NetName=A2_1 Pin=R39-1
+Added Pin To Net: NetName=A2_1 Pin=R44-2
+Added Pin To Net: NetName=A2_1 Pin=U7-12
+Added Pin To Net: NetName=A2_1 Pin=U7-21
+Added Pin To Net: NetName=A2_1 Pin=U13-12
+Added Pin To Net: NetName=A2_1 Pin=U13-21
+Added Pin To Net: NetName=A2_1 Pin=U14-1
+Added Pin To Net: NetName=A2_1 Pin=U15-3
+Added Pin To Net: NetName=A2_1 Pin=U16-5
+Added Pin To Net: NetName=A2_1 Pin=U17-3
+Added Net: Name=A2_1
+Added Pin To Net: NetName=NetC62_1 Pin=C62-1
+Added Pin To Net: NetName=NetC62_1 Pin=U16-4
+Added Net: Name=NetC62_1
+Added Pin To Net: NetName=NetC62_2 Pin=C62-2
+Added Pin To Net: NetName=NetC62_2 Pin=L3-1
+Added Pin To Net: NetName=NetC62_2 Pin=U16-6
+Added Net: Name=NetC62_2
+Added Pin To Net: NetName=NetC68_2 Pin=C68-2
+Added Pin To Net: NetName=NetC68_2 Pin=U16-2
+Added Net: Name=NetC68_2
+Added Pin To Net: NetName=NetR36_2 Pin=R36-2
+Added Pin To Net: NetName=NetR36_2 Pin=U16-3
+Added Net: Name=NetR36_2
+Added Pin To Net: NetName=NetR38_1 Pin=R38-1
+Added Pin To Net: NetName=NetR38_1 Pin=U16-1
+Added Net: Name=NetR38_1
+Change Class Name : Old Net Name=12V24VPower New Net Name=Power
+Added Member To Class: ClassName=Power Member=Component C40 10uF
+Added Member To Class: ClassName=Power Member=Component C61 10uF
+Added Member To Class: ClassName=Power Member=Component C62 100nF
+Added Member To Class: ClassName=Power Member=Component C63 10uF
+Added Member To Class: ClassName=Power Member=Component C64 100nF
+Added Member To Class: ClassName=Power Member=Component C65 10uF
+Added Member To Class: ClassName=Power Member=Component C66 10uF
+Added Member To Class: ClassName=Power Member=Component C67 100nF
+Added Member To Class: ClassName=Power Member=Component C68 100nF
+Added Member To Class: ClassName=Power Member=Component L3 22uH
+Added Member To Class: ClassName=Power Member=Component P1 XT30PW-M
+Added Member To Class: ClassName=Main Member=Component R34 10K次
+Added Member To Class: ClassName=Main Member=Component R35 1K次
+Added Member To Class: ClassName=Power Member=Component R36 10K次
+Added Member To Class: ClassName=Power Member=Component R37 43K次
+Added Member To Class: ClassName=Power Member=Component R38 51K次
+Added Member To Class: ClassName=Power Member=Component R39 8.2K次
+Added Member To Class: ClassName=Power Member=Component R44 0次
+Added Member To Class: ClassName=Power Member=Component U14 AMS1117-3.3
+Added Member To Class: ClassName=Power Member=Component U16 MP9943
+Added Room: Name=Main
+Added Room: Name=Power

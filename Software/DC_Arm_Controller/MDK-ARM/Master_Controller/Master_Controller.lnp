@@ -52,7 +52,7 @@
 "master_controller\util_spi.o"
 "master_controller\util_uart.o"
 ".\DSP_Lib\arm_cortexM4lf_math.lib"
---strict --scatter "stm32g474xx_flash.sct"
+--strict --scatter "Master_Controller\Master_Controller.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "Master_Controller.map" -o Master_Controller\Master_Controller.axf

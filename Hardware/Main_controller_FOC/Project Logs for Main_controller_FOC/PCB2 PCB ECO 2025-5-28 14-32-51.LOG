@@ -1,0 +1,29 @@
+Removed Pin From Net: NetName=*RS2 Pin=U4-37
+Removed Pin From Net: NetName=*CS2 Pin=U4-38
+Added Component: Designator=CN2(CONN-SMD_4P-P1.25_GH1.25-4P)
+Added Component: Designator=R41(R0402)
+Add component (AddParameter): Name = "W"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R45(R0402)
+Add component (AddParameter): Name = "W"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=CN2-1
+Added Pin To Net: NetName=3V3 Pin=R41-2
+Added Pin To Net: NetName=*RS2 Pin=U4-41
+Added Pin To Net: NetName=*CS2 Pin=U4-42
+Added Pin To Net: NetName=SPI1_MOSI Pin=U17-8
+Added Pin To Net: NetName=SPI1_SCK Pin=U17-9
+Added Pin To Net: NetName=DGND Pin=CN2-2
+Added Pin To Net: NetName=DGND Pin=R45-2
+Added Net: Name=DGND
+Added Pin To Net: NetName=SWCLK Pin=CN2-3
+Added Pin To Net: NetName=SWCLK Pin=R45-1
+Added Pin To Net: NetName=SWCLK Pin=U4-38
+Added Net: Name=SWCLK
+Added Pin To Net: NetName=SWDIO Pin=CN2-4
+Added Pin To Net: NetName=SWDIO Pin=R41-1
+Added Pin To Net: NetName=SWDIO Pin=U4-37
+Added Net: Name=SWDIO
+Added Member To Class: ClassName=Main Member=Component CN2 Œ‘ ΩSTLINK
+Added Member To Class: ClassName=Main Member=Component R41 10K¶∏
+Added Member To Class: ClassName=Main Member=Component R45 10K¶∏
+Added Room: Name=Main
+Added Room: Name=Power

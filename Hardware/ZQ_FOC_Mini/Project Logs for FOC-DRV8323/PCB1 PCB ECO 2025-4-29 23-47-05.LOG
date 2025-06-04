@@ -1,0 +1,8 @@
+Added Component: Designator=C25(1206)
+Added Component: Designator=C26(1206)
+Added Pin To Net: NetName=PGND Pin=C25-1
+Added Pin To Net: NetName=VBUS Pin=C25-2
+Added Pin To Net: NetName=PGND Pin=C26-1
+Added Pin To Net: NetName=VBUS Pin=C26-2
+Added Member To Class: ClassName=Sheet1 Member=Component C25 100uF
+Added Member To Class: ClassName=Sheet1 Member=Component C26 100uF

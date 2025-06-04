@@ -46,14 +46,14 @@ I (../Core/Inc/spi.h)(0x682DBE09)
 I (../Core/Inc/tim.h)(0x682DBE0A)
 I (../Core/Inc/usart.h)(0x682DBE0A)
 I (../Core/Inc/gpio.h)(0x682C8DE2)
-I (../MDK-ARM/USER/Main/DC_Arm_Control.h)(0x68316C07)
+I (../MDK-ARM/USER/Main/DC_Arm_Control.h)(0x683322C5)
 I (../MDK-ARM/USER/Utility/util_fdcan.h)(0x682C68D6)
 I (../MDK-ARM/USER/configure.h)(0x6830687A)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\arm_math.h)(0x5898498A)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898498A)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
-I (../MDK-ARM/USER/Main/DC_Arm_Comm.h)(0x68316C07)
+I (../MDK-ARM/USER/Main/DC_Arm_Comm.h)(0x683322C5)
 F (../Core/Src/gpio.c)(0x68300C50)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../MDK-ARM/USER -I ../MDK-ARM/USER/Utility -I ../MDK-ARM/USER/Main -I ../MDK-ARM/USER/System -I ../MDK-ARM/USER/Peripheral -I ../MDK-ARM/USER/Algorithm -I ../MDK-ARM/USER/Library-I.\RTE\_Master_Controller-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32G4xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32G474xx -DUSE_HAL_DRIVER -DSTM32G474xx -DARM_MATH_CM4 -D__CC_ARM -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o master_controller\gpio.o --omf_browse master_controller\gpio.crf --depend master_controller\gpio.d)
 I (../Core/Inc/gpio.h)(0x682C8DE2)
 I (../Core/Inc/main.h)(0x682C8DE3)
@@ -1426,7 +1426,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
 F (.\USER\Algorithm\alg_swf.c)(0x680F142A)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../MDK-ARM/USER -I ../MDK-ARM/USER/Utility -I ../MDK-ARM/USER/Main -I ../MDK-ARM/USER/System -I ../MDK-ARM/USER/Peripheral -I ../MDK-ARM/USER/Algorithm -I ../MDK-ARM/USER/Library-I.\RTE\_Master_Controller-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32G4xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32G474xx -DUSE_HAL_DRIVER -DSTM32G474xx -DARM_MATH_CM4 -D__CC_ARM -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o master_controller\alg_swf.o --omf_browse master_controller\alg_swf.crf --depend master_controller\alg_swf.d)
-I (USER\Algorithm\alg_swf.h)(0x682DBDD2)
+I (USER\Algorithm\alg_swf.h)(0x6833307D)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
 F (.\USER\configure.h)(0x6830687A)()
 F (.\USER\Library\lib_buff.c)(0x67DB6881)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../MDK-ARM/USER -I ../MDK-ARM/USER/Utility -I ../MDK-ARM/USER/Main -I ../MDK-ARM/USER/System -I ../MDK-ARM/USER/Peripheral -I ../MDK-ARM/USER/Algorithm -I ../MDK-ARM/USER/Library-I.\RTE\_Master_Controller-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32G4xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32G474xx -DUSE_HAL_DRIVER -DSTM32G474xx -DARM_MATH_CM4 -D__CC_ARM -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o master_controller\lib_buff.o --omf_browse master_controller\lib_buff.crf --depend master_controller\lib_buff.d)
@@ -1598,9 +1598,9 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898498A)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
-F (.\USER\Main\DC_Arm_Comm.c)(0x68317263)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../MDK-ARM/USER -I ../MDK-ARM/USER/Utility -I ../MDK-ARM/USER/Main -I ../MDK-ARM/USER/System -I ../MDK-ARM/USER/Peripheral -I ../MDK-ARM/USER/Algorithm -I ../MDK-ARM/USER/Library-I.\RTE\_Master_Controller-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32G4xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32G474xx -DUSE_HAL_DRIVER -DSTM32G474xx -DARM_MATH_CM4 -D__CC_ARM -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o master_controller\dc_arm_comm.o --omf_browse master_controller\dc_arm_comm.crf --depend master_controller\dc_arm_comm.d)
-I (USER\Main\DC_Arm_Comm.h)(0x68316C07)
-I (USER\Main\DC_Arm_Control.h)(0x68316C07)
+F (.\USER\Main\DC_Arm_Comm.c)(0x683322C5)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../MDK-ARM/USER -I ../MDK-ARM/USER/Utility -I ../MDK-ARM/USER/Main -I ../MDK-ARM/USER/System -I ../MDK-ARM/USER/Peripheral -I ../MDK-ARM/USER/Algorithm -I ../MDK-ARM/USER/Library-I.\RTE\_Master_Controller-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32G4xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32G474xx -DUSE_HAL_DRIVER -DSTM32G474xx -DARM_MATH_CM4 -D__CC_ARM -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o master_controller\dc_arm_comm.o --omf_browse master_controller\dc_arm_comm.crf --depend master_controller\dc_arm_comm.d)
+I (USER\Main\DC_Arm_Comm.h)(0x683322C5)
+I (USER\Main\DC_Arm_Control.h)(0x683322C5)
 I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x680C9E58)
 I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g474xx.h)(0x680C9E58)
 I (../Drivers/CMSIS/Include/core_cm4.h)(0x680C9E35)
@@ -1647,8 +1647,8 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898498A)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
 I (../Core/Inc/tim.h)(0x682DBE0A)
-F (.\USER\Main\DC_Arm_Control.c)(0x683170EB)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../MDK-ARM/USER -I ../MDK-ARM/USER/Utility -I ../MDK-ARM/USER/Main -I ../MDK-ARM/USER/System -I ../MDK-ARM/USER/Peripheral -I ../MDK-ARM/USER/Algorithm -I ../MDK-ARM/USER/Library-I.\RTE\_Master_Controller-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32G4xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32G474xx -DUSE_HAL_DRIVER -DSTM32G474xx -DARM_MATH_CM4 -D__CC_ARM -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o master_controller\dc_arm_control.o --omf_browse master_controller\dc_arm_control.crf --depend master_controller\dc_arm_control.d)
-I (USER\Main\DC_Arm_Control.h)(0x68316C07)
+F (.\USER\Main\DC_Arm_Control.c)(0x68332523)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../MDK-ARM/USER -I ../MDK-ARM/USER/Utility -I ../MDK-ARM/USER/Main -I ../MDK-ARM/USER/System -I ../MDK-ARM/USER/Peripheral -I ../MDK-ARM/USER/Algorithm -I ../MDK-ARM/USER/Library-I.\RTE\_Master_Controller-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32G4xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32G474xx -DUSE_HAL_DRIVER -DSTM32G474xx -DARM_MATH_CM4 -D__CC_ARM -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o master_controller\dc_arm_control.o --omf_browse master_controller\dc_arm_control.crf --depend master_controller\dc_arm_control.d)
+I (USER\Main\DC_Arm_Control.h)(0x683322C5)
 I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x680C9E58)
 I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g474xx.h)(0x680C9E58)
 I (../Drivers/CMSIS/Include/core_cm4.h)(0x680C9E35)
@@ -1695,7 +1695,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898498A)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
 I (../Core/Inc/tim.h)(0x682DBE0A)
-I (USER\Main\DC_Arm_Comm.h)(0x68316C07)
+I (USER\Main\DC_Arm_Comm.h)(0x683322C5)
 F (.\USER\System\sys_dwt.c)(0x67DB6881)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../MDK-ARM/USER -I ../MDK-ARM/USER/Utility -I ../MDK-ARM/USER/Main -I ../MDK-ARM/USER/System -I ../MDK-ARM/USER/Peripheral -I ../MDK-ARM/USER/Algorithm -I ../MDK-ARM/USER/Library-I.\RTE\_Master_Controller-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32G4xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32G474xx -DUSE_HAL_DRIVER -DSTM32G474xx -DARM_MATH_CM4 -D__CC_ARM -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o master_controller\sys_dwt.o --omf_browse master_controller\sys_dwt.crf --depend master_controller\sys_dwt.d)
 I (USER\System\sys_dwt.h)(0x67DB6881)
 I (../Core/Inc/main.h)(0x682C8DE3)

@@ -35,9 +35,13 @@ void FDCAN_IntFilterAndStart(FDCAN_HandleTypeDef *hfdcan) {
 void DC_Arm_Comm_Handler(Motor_Struct *motor, uint32_t cmd, uint8_t *rxdata)
 {
     // Decode the received data
-	if(cmd == 0x02)
+	if(cmd == CMD_THETA_CURRENT_FEEDBACK)
 	{
-		motor->Theta_fed = rxdata[4] << 24 | rxdata[3] << 16 | rxdata[2] << 8 | rxdata[1];
+		motor->Theta_fed 	= rxdata[3] << 24 | rxdata[2] << 16 | rxdata[1] << 8 | rxdata[0];
+		motor->Current_fed 	= rxdata[7] << 24 | rxdata[6] << 16 | rxdata[1] << 8 | rxdata[0];
+	}
+	else if(cmd == CMD_ERROR_FEEDBACK)
+	{
 		motor->Error_Status.SAFETY_STATE = rxdata[0] & 0x01;
 		motor->Error_Status.OVER_VOLTAGE_STATE = (rxdata[0] >> 1) & 0x01;
 		motor->Error_Status.UNDER_VOLTAGE_STATE = (rxdata[0] >> 2) & 0x01;

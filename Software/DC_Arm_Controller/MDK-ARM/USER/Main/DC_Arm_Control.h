@@ -26,6 +26,8 @@ typedef struct
     float Theta_fed;
     float Speed_ref;
     float Speed_fed;
+    float Current_ref;
+    float Current_fed;
     Motor_Error_Status Error_Status;
     FDCAN_HandleTypeDef *hfdcan;
     uint32_t Device_ID;

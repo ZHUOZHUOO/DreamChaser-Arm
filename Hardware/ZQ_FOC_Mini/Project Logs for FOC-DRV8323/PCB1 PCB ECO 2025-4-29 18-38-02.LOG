@@ -1,0 +1,16 @@
+Added Component: Designator=H2(CONN-SMD_6P-P1.25_XYECONN_XY-GH1.25-6A61)
+Added Component: Designator=H3(CONN-SMD_6P-P1.25_XYECONN_XY-GH1.25-6A61)
+Added Pin To Net: NetName=VBUS Pin=H2-1
+Added Pin To Net: NetName=VBUS Pin=H2-2
+Added Pin To Net: NetName=PGND Pin=H2-3
+Added Pin To Net: NetName=PGND Pin=H2-4
+Added Pin To Net: NetName=CAN_P Pin=H2-5
+Added Pin To Net: NetName=CAN_N Pin=H2-6
+Added Pin To Net: NetName=VBUS Pin=H3-1
+Added Pin To Net: NetName=VBUS Pin=H3-2
+Added Pin To Net: NetName=PGND Pin=H3-3
+Added Pin To Net: NetName=PGND Pin=H3-4
+Added Pin To Net: NetName=CAN_P Pin=H3-5
+Added Pin To Net: NetName=CAN_N Pin=H3-6
+Added Member To Class: ClassName=Sheet1 Member=Component H2 Œ‘ ΩGH1.25 6PIN
+Added Member To Class: ClassName=Sheet1 Member=Component H3 Œ‘ ΩGH1.25 6PIN
