@@ -1,3 +1,0 @@
-Change Component Footprint: Designator=CN1 Old Footprint=GH1.25 4P 立贴 New Footprint=CONN-SMD_4P-P1.25_GH1.25-4P
-Change Component Comment : Designator=CN1 Old Comment=立式UART New Comment=卧式UART
-Change component parameters: Designator = "CN1" ("CN1"); Footprint = "GH1.25 4P 立贴"; UniqueID = "\SNRRIOHM" ("\SNRRIOHM")

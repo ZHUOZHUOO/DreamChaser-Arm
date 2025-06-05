@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=*RS2 Pin=U4-41
-Removed Pin From Net: NetName=*CS2 Pin=U4-42
-Added Pin To Net: NetName=*CS2 Pin=U4-41
-Added Pin To Net: NetName=*RS2 Pin=U4-42
