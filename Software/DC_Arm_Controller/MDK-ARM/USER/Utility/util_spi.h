@@ -29,8 +29,8 @@ void SPI_ReadMuliReg(SPI_HandleTypeDef *hspi, uint8_t *rx_data, uint8_t len);
 void SPI_ErrorHandler(uint32_t ret);
 
 
-#endif
-
 #ifdef __cplusplus
 }
+#endif
+
 #endif

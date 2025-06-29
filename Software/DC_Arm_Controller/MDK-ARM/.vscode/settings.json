@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "ad8402_periph.h": "c",
+        "lm25145.h": "c",
+        "lm25145_periph.h": "c",
+        "dc_arm_control.h": "c"
+    }
+}

@@ -49,9 +49,10 @@ extern "C"
     void DWT_CNT_Update(void);
 	void Check_Task_Freq(void);
 
-#endif
+
 
 #ifdef __cplusplus
 }
+#endif
 
 #endif

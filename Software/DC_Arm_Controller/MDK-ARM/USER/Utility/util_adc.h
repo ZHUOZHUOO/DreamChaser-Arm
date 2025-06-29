@@ -10,8 +10,8 @@ extern "C"
 #include "dma.h"
 
 
-	
-	
-
+#ifdef __cplusplus
+}
+#endif
 	
 #endif

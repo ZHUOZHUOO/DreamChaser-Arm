@@ -10,18 +10,20 @@ Motor_Struct Slave2_End = {0, 0, 0, 0, 0, 0, {0, 0, 0, 0, 0, 0, 0, 0}, &hfdcan2,
 void DC_Arm_Comm_AngleSet(Motor_Struct *motor);
 void DC_Arm_Comm_CurrentSet(Motor_Struct *motor);
 
-void Main_Control_Init(void)
+void Task_Main_Control(void)
 {
-    HAL_TIM_Base_Start_IT(&htim1);
+	HAL_TIM_Base_Start_IT(&htim1);
 
     FDCAN_IntFilterAndStart(&hfdcan1);
     FDCAN_IntFilterAndStart(&hfdcan2);
-}
 
-void Main_Control_Loop(void)
-{
-    Slave2_Arm.Theta_ref = -PI/2;
-    DC_Arm_Comm_AngleSet(&Slave2_Arm);
+	AD8402_RESET();
+	DCDC_SetVoltage(DCDC_Voltage);
+	while(1)
+	{
+		Slave2_Arm.Theta_ref = -PI/2;
+    	DC_Arm_Comm_AngleSet(&Slave2_Arm);
+	}
 }
 
 void DC_Arm_Comm_AngleSet(Motor_Struct *motor)

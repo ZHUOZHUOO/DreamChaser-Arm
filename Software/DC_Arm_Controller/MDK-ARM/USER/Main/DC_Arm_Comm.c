@@ -8,7 +8,7 @@ void FDCAN_IntFilterAndStart(FDCAN_HandleTypeDef *hfdcan) {
 	sFilterConfig.FilterType = FDCAN_FILTER_MASK;
 	sFilterConfig.FilterConfig = FDCAN_FILTER_TO_RXFIFO0;
 	sFilterConfig.FilterID1 = 0x500;
-	sFilterConfig.FilterID2 = 0x78C;
+	sFilterConfig.FilterID2 = 0x780;
 	if (HAL_FDCAN_ConfigFilter(hfdcan, &sFilterConfig) != HAL_OK)
 	{
 		FDCAN_ErrorHandler();

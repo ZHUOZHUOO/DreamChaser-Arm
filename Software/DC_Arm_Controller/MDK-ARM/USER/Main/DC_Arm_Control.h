@@ -7,6 +7,7 @@
 #include "arm_math.h"
 #include "tim.h"
 #include "DC_Arm_Comm.h"
+#include "LM25145_Periph.h"
 
 typedef struct 
 {
@@ -41,8 +42,6 @@ extern Motor_Struct Slave0_End;
 extern Motor_Struct Slave1_End;
 extern Motor_Struct Slave2_End;
 
-void Main_Control_Init(void);
-void Main_Control_Loop(void);
 void DC_Arm_Comm_AngleSet(Motor_Struct *motor);
 
 #endif /* __DC_ARM_CONTROL_H */

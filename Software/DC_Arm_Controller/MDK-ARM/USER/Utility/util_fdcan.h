@@ -13,4 +13,9 @@ void FDCAN_InitTxHander(FDCAN_TxHeaderTypeDef* pheader, uint32_t id, uint32_t dl
 void FDCAN_SendMessageWithBaudSwitch(FDCAN_HandleTypeDef *hfdcan,uint8_t* pdata,uint32_t dlc,uint32_t id);
 void FDCAN_SendMessageWithOutBaudSwitch(FDCAN_HandleTypeDef *hfdcan,uint8_t* pdata,uint32_t dlc,uint32_t id);
 
+	
+#ifdef __cplusplus
+{
+#endif
+
 #endif

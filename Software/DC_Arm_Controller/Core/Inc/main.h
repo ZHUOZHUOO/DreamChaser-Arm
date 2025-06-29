@@ -57,6 +57,26 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define ADC_VCC_Pin GPIO_PIN_0
+#define ADC_VCC_GPIO_Port GPIOA
+#define SWITCH1_Pin GPIO_PIN_1
+#define SWITCH1_GPIO_Port GPIOA
+#define SWITCH2_Pin GPIO_PIN_2
+#define SWITCH2_GPIO_Port GPIOA
+#define SWITCH3_Pin GPIO_PIN_3
+#define SWITCH3_GPIO_Port GPIOA
+#define SWITCH4_Pin GPIO_PIN_4
+#define SWITCH4_GPIO_Port GPIOA
+#define OLED_RESET_Pin GPIO_PIN_0
+#define OLED_RESET_GPIO_Port GPIOB
+#define OLED_DC_Pin GPIO_PIN_1
+#define OLED_DC_GPIO_Port GPIOB
+#define OLED_CS_Pin GPIO_PIN_2
+#define OLED_CS_GPIO_Port GPIOB
+#define AD8402_CS_Pin GPIO_PIN_4
+#define AD8402_CS_GPIO_Port GPIOB
+#define AD8402_RESET_Pin GPIO_PIN_5
+#define AD8402_RESET_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 

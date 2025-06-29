@@ -15,10 +15,16 @@
                 "h:\\ZHUOZHUOO--Github\\DreamChaser-Arm\\Software\\DC_Arm_Controller\\MDK-ARM\\USER\\Peripheral",
                 "h:\\ZHUOZHUOO--Github\\DreamChaser-Arm\\Software\\DC_Arm_Controller\\MDK-ARM\\USER\\Algorithm",
                 "h:\\ZHUOZHUOO--Github\\DreamChaser-Arm\\Software\\DC_Arm_Controller\\MDK-ARM\\USER\\Library",
+                "h:\\ZHUOZHUOO--Github\\DreamChaser-Arm\\Software\\DC_Arm_Controller\\Middlewares\\Third_Party\\FreeRTOS\\Source\\include",
+                "h:\\ZHUOZHUOO--Github\\DreamChaser-Arm\\Software\\DC_Arm_Controller\\Middlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2",
+                "h:\\ZHUOZHUOO--Github\\DreamChaser-Arm\\Software\\DC_Arm_Controller\\Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\RVDS\\ARM_CM4F",
+                "h:\\ZHUOZHUOO--Github\\DreamChaser-Arm\\Software\\DC_Arm_Controller\\Middlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS",
                 "h:\\ZHUOZHUOO--Github\\DreamChaser-Arm\\Software\\DC_Arm_Controller\\MDK-ARM",
                 "h:\\ZHUOZHUOO--Github\\DreamChaser-Arm\\Software\\DC_Arm_Controller\\Core\\Src",
                 "h:\\ZHUOZHUOO--Github\\DreamChaser-Arm\\Software\\DC_Arm_Controller\\Drivers\\STM32G4xx_HAL_Driver\\Src",
-                "h:\\ZHUOZHUOO--Github\\DreamChaser-Arm\\Software\\DC_Arm_Controller\\MDK-ARM\\DSP_Lib"
+                "h:\\ZHUOZHUOO--Github\\DreamChaser-Arm\\Software\\DC_Arm_Controller\\MDK-ARM\\DSP_Lib",
+                "h:\\ZHUOZHUOO--Github\\DreamChaser-Arm\\Software\\DC_Arm_Controller\\Middlewares\\Third_Party\\FreeRTOS\\Source",
+                "h:\\ZHUOZHUOO--Github\\DreamChaser-Arm\\Software\\DC_Arm_Controller\\Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\MemMang"
             ],
             "defines": [
                 "USE_HAL_DRIVER",
