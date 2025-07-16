@@ -1689,6 +1689,11 @@
               <FileType>1</FileType>
               <FilePath>.\USER\Peripheral\LM25145_Periph.c</FilePath>
             </File>
+            <File>
+              <FileName>WS2812_Periph.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\USER\Peripheral\WS2812_Periph.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

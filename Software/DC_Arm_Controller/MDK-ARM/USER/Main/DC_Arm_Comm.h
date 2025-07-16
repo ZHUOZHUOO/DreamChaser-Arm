@@ -1,6 +1,10 @@
 #ifndef __DC_ARM_COMM_H
 #define __DC_ARM_COMM_H
 
+#ifdef __cplusplus
+extern "C" {
+#endif 
+
 #include "DC_Arm_Control.h"
 #include "util_fdcan.h"
 #include "configure.h"
@@ -12,5 +16,8 @@
 
 void FDCAN_IntFilterAndStart(FDCAN_HandleTypeDef *hfdcan);
 
-
+#ifdef __cplusplus
+}
+#endif 
+	
 #endif /* __DC_ARM_COMM_H */

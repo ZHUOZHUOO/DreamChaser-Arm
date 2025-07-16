@@ -37,11 +37,16 @@ extern "C" {
 #define SPI_SCK_LOW      HAL_GPIO_WritePin(SPI_SCK_PORT,SPI_SCK_PIN,GPIO_PIN_RESET)
 #define SPI_SCK_HIGH     HAL_GPIO_WritePin(SPI_SCK_PORT,SPI_SCK_PIN,GPIO_PIN_SET)
 
+typedef enum{
+	AW = 0,
+	BW = 1
+}AD8402_Pin_Link_Type;
+
 extern uint16_t AD8402_Periph_DATA[2];
 
 extern float  AD8402_Periph_Ohm[2];
 
-void AD8402_SetValue(float* ohm);
+void AD8402_SetValue(AD8402_Pin_Link_Type link_type, float* ohm);
 uint8_t AD8402_DecoderValue(float ohm);
 void AD8402_RESET(void);
 

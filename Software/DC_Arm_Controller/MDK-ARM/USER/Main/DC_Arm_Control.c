@@ -18,11 +18,12 @@ void Task_Main_Control(void)
     FDCAN_IntFilterAndStart(&hfdcan2);
 
 	AD8402_RESET();
-	DCDC_SetVoltage(DCDC_Voltage);
 	while(1)
 	{
 		Slave2_Arm.Theta_ref = -PI/2;
-    	DC_Arm_Comm_AngleSet(&Slave2_Arm);
+    DC_Arm_Comm_AngleSet(&Slave2_Arm);
+		DCDC_SetVoltage(DCDC_Voltage);
+		osDelay(10);
 	}
 }
 

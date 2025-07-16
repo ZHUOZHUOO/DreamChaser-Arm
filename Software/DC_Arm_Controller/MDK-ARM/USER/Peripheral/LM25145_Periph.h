@@ -8,13 +8,9 @@ extern "C" {
 #include "main.h"
 #include "AD8402_Periph.h"
 
-#define RES_UP    56 // 56K
-#define RES_DOWN   0 // none resistor
-#define FB_VOLTAGE 0.8f // LM25145 Feedback Voltage = 0.8V
-
-#define AD8402_Pin_Link_Type AW
-#define AW  0 // AD8402 Pin A and W
-#define BW  1 // AD8402 Pin B and W
+#define RES_UP    56 			// 56K
+#define RES_DOWN   0 			// none resistor
+#define FB_VOLTAGE 0.8f 	// LM25145 Feedback Voltage = 0.8V
 
 #define MINIMUM_VOLTAGE ((RES_UP/(AD8402_TYPE + RES_DOWN) + 1) * FB_VOLTAGE) // 0.8V * 56/(56+0) = 0.8V
 

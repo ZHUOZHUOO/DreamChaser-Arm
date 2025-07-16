@@ -1,6 +1,10 @@
 #ifndef __DC_ARM_CONTROL_H
 #define __DC_ARM_CONTROL_H
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #include "stm32g4xx.h"
 #include "util_fdcan.h"
 #include "configure.h"
@@ -43,5 +47,9 @@ extern Motor_Struct Slave1_End;
 extern Motor_Struct Slave2_End;
 
 void DC_Arm_Comm_AngleSet(Motor_Struct *motor);
+
+#ifdef __cplusplus
+}
+#endif 
 
 #endif /* __DC_ARM_CONTROL_H */
