@@ -1,8 +1,0 @@
-Added Pin To Net: NetName=VOUT_CH1 Pin=R12-2
-Added Pin To Net: NetName=VOUT_CH2 Pin=R22-2
-Added Pin To Net: NetName=VOUT_CH1 Pin=R26-2
-Added Pin To Net: NetName=VOUT_CH2 Pin=R29-2
-Added Member To Class: ClassName=Power Member=Component C45 22uF
-Added Member To Class: ClassName=Power Member=Component C54 22uF
-Added Room: Name=Main
-Added Room: Name=Power

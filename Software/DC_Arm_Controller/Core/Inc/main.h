@@ -71,8 +71,6 @@ void Error_Handler(void);
 #define SWITCH3_GPIO_Port GPIOA
 #define SWITCH4_Pin GPIO_PIN_4
 #define SWITCH4_GPIO_Port GPIOA
-#define OLED_RESET_Pin GPIO_PIN_0
-#define OLED_RESET_GPIO_Port GPIOB
 #define OLED_DC_Pin GPIO_PIN_1
 #define OLED_DC_GPIO_Port GPIOB
 #define OLED_CS_Pin GPIO_PIN_2

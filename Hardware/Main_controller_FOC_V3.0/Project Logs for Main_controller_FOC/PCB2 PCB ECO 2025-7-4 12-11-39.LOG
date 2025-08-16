@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=3V3 Pin=Q1-1
-Removed Pin From Net: NetName=LM25145_1_EN Pin=Q1-3
-Added Pin To Net: NetName=LM25145_1_EN Pin=Q1-1
-Added Pin To Net: NetName=3V3 Pin=Q1-3

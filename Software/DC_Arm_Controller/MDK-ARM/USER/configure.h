@@ -9,16 +9,4 @@
 #define __CONFIGURE_H
 
 
-//-----------FDCAN ID Setting------------//
-
-#define Slave0_Arm_ID 	0x420
-#define Slave1_Arm_ID 	0x430
-#define Slave2_Arm_ID 	0x440
-#define Slave0_End_ID 	0x450
-#define Slave1_End_ID 	0x460
-#define Slave2_End_ID 	0x470
-
-#define White_Mark 		0x000
-#define Read_Mark 		0x100
-
 #endif

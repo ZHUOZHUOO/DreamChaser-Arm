@@ -12,6 +12,7 @@ extern "C" {
 #include "tim.h"
 #include "DC_Arm_Comm.h"
 #include "LM25145_Periph.h"
+#include "alg_pid.h"
 
 typedef struct 
 {
@@ -21,7 +22,6 @@ typedef struct
     uint8_t OVER_CURRENT_STATE;     //0:OverCurrent     1:Normal
     uint8_t OVER_SPEED_STATE;       //0:OverSpeed       1:Normal
     uint8_t OVER_TEMPERATURE_STATE; //0:OverTemperature 1:Normal
-    uint8_t OVER_LOAD_STATE;        //0:OverLoad        1:Normal
     uint8_t DRV8323_ERROR_STATE;    //0:DRV8323 Error   1:Normal
 }Motor_Error_Status;
 
@@ -36,6 +36,9 @@ typedef struct
     Motor_Error_Status Error_Status;
     FDCAN_HandleTypeDef *hfdcan;
     uint32_t Device_ID;
+    PID_TypeDef Iq_PID;
+    PID_TypeDef Id_PID;
+    PID_TypeDef Position_PID;
 }Motor_Struct;
 
 

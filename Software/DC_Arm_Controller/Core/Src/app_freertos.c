@@ -73,7 +73,7 @@ osThreadId_t Main_ControlHandle;
 const osThreadAttr_t Main_Control_attributes = {
   .name = "Main_Control",
   .priority = (osPriority_t) osPriorityHigh1,
-  .stack_size = 4096 * 4
+  .stack_size = 2048 * 4
 };
 /* Definitions for Error_Detect */
 osThreadId_t Error_DetectHandle;
@@ -81,6 +81,13 @@ const osThreadAttr_t Error_Detect_attributes = {
   .name = "Error_Detect",
   .priority = (osPriority_t) osPriorityBelowNormal,
   .stack_size = 256 * 4
+};
+/* Definitions for OLED */
+osThreadId_t OLEDHandle;
+const osThreadAttr_t OLED_attributes = {
+  .name = "OLED",
+  .priority = (osPriority_t) osPriorityLow,
+  .stack_size = 2048 * 4
 };
 
 /* Private function prototypes -----------------------------------------------*/
@@ -93,6 +100,7 @@ void Task_RGB(void *argument);
 void Task_Communite(void *argument);
 void Task_Main_Control(void *argument);
 void Task_Error_Detect(void *argument);
+void Task_OLED_Display(void *argument);
 
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
@@ -137,6 +145,9 @@ void MX_FREERTOS_Init(void) {
 
   /* creation of Error_Detect */
   Error_DetectHandle = osThreadNew(Task_Error_Detect, NULL, &Error_Detect_attributes);
+
+  /* creation of OLED */
+  OLEDHandle = osThreadNew(Task_OLED_Display, NULL, &OLED_attributes);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -236,6 +247,24 @@ __weak void Task_Error_Detect(void *argument)
     osDelay(1);
   }
   /* USER CODE END Task_Error_Detect */
+}
+
+/* USER CODE BEGIN Header_Task_OLED_Display */
+/**
+* @brief Function implementing the OLED thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_Task_OLED_Display */
+__weak void Task_OLED_Display(void *argument)
+{
+  /* USER CODE BEGIN Task_OLED_Display */
+  /* Infinite loop */
+  for(;;)
+  {
+    osDelay(1);
+  }
+  /* USER CODE END Task_OLED_Display */
 }
 
 /* Private application code --------------------------------------------------*/

@@ -335,7 +335,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32G474xx,ARM_MATH_CM4,__CC_ARM,ARM_MATH_MATRIX_CHECK,ARM_MATH_ROUNDING</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32G4xx_HAL_Driver/Inc;../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32G4xx/Include;../Drivers/CMSIS/Include;../MDK-ARM/USER;../MDK-ARM/USER/Utility;../MDK-ARM/USER/Main;../MDK-ARM/USER/System;../MDK-ARM/USER/Peripheral;../MDK-ARM/USER/Algorithm;../MDK-ARM/USER/Library;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32G4xx_HAL_Driver/Inc;../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32G4xx/Include;../Drivers/CMSIS/Include;../MDK-ARM/USER;../MDK-ARM/USER/Utility;../MDK-ARM/USER/Main;../MDK-ARM/USER/System;../MDK-ARM/USER/Peripheral;../MDK-ARM/USER/Algorithm;../MDK-ARM/USER/Library;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS;./USER/OLED</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -1694,6 +1694,16 @@
               <FileType>1</FileType>
               <FilePath>.\USER\Peripheral\WS2812_Periph.c</FilePath>
             </File>
+            <File>
+              <FileName>OLED_Periph.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\OLED_Periph.c</FilePath>
+            </File>
+            <File>
+              <FileName>OLED_Periph.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\OLED_Periph.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -2371,6 +2381,31 @@
                   </Cads>
                 </FileArmAds>
               </FileOption>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>OLED</GroupName>
+          <Files>
+            <File>
+              <FileName>gui.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\USER\OLED\gui.c</FilePath>
+            </File>
+            <File>
+              <FileName>oled.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\USER\OLED\oled.c</FilePath>
+            </File>
+            <File>
+              <FileName>sys.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\USER\OLED\sys.c</FilePath>
+            </File>
+            <File>
+              <FileName>oled_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\USER\OLED\oled_spi.c</FilePath>
             </File>
           </Files>
         </Group>

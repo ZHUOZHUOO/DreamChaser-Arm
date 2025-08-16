@@ -6,7 +6,7 @@ void rgb_to_pwm(uint8_t r, uint8_t g, uint8_t b, uint16_t *buffer, int start_ind
 
 void Task_RGB(void)
 {
-//		HAL_TIM_Base_Start(&WS2812_TIM);
+		HAL_TIM_Base_Start(&WS2812_TIM);
     HAL_TIM_PWM_Start_DMA(&WS2812_TIM, WS2812_TIM_CHANNEL, (uint32_t *)pwm_buffer, sizeof(pwm_buffer)/sizeof(uint16_t));
 
     while (1)

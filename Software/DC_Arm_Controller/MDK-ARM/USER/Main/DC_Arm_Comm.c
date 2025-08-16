@@ -35,21 +35,42 @@ void FDCAN_IntFilterAndStart(FDCAN_HandleTypeDef *hfdcan) {
 void DC_Arm_Comm_Handler(Motor_Struct *motor, uint32_t cmd, uint8_t *rxdata)
 {
     // Decode the received data
-	if(cmd == CMD_THETA_CURRENT_FEEDBACK)
+	switch (cmd)
 	{
-		motor->Theta_fed 	= rxdata[3] << 24 | rxdata[2] << 16 | rxdata[1] << 8 | rxdata[0];
-		motor->Current_fed 	= rxdata[7] << 24 | rxdata[6] << 16 | rxdata[1] << 8 | rxdata[0];
-	}
-	else if(cmd == CMD_ERROR_FEEDBACK)
-	{
+	case CMD_THETA_CURRENT_FDB:
+		motor->Theta_fed = *(float *)rxdata;
+		motor->Current_fed = *(float *)(rxdata + 4);
+		break;
+	case CMD_ERROR_FDB:
 		motor->Error_Status.SAFETY_STATE = rxdata[0] & 0x01;
 		motor->Error_Status.OVER_VOLTAGE_STATE = (rxdata[0] >> 1) & 0x01;
 		motor->Error_Status.UNDER_VOLTAGE_STATE = (rxdata[0] >> 2) & 0x01;
 		motor->Error_Status.OVER_CURRENT_STATE = (rxdata[0] >> 3) & 0x01;
 		motor->Error_Status.OVER_SPEED_STATE = (rxdata[0] >> 4) & 0x01;
 		motor->Error_Status.OVER_TEMPERATURE_STATE = (rxdata[0] >> 5) & 0x01;
-		motor->Error_Status.OVER_LOAD_STATE = (rxdata[0] >> 6) & 0x01;
-		motor->Error_Status.DRV8323_ERROR_STATE = (rxdata[0] >> 7) & 0x01;
+		motor->Error_Status.DRV8323_ERROR_STATE = (rxdata[0] >> 6) & 0x01;
+		break;
+	case CMD_IQ_PID_FDB:
+		motor->Iq_PID.kp = *(float *)rxdata;
+		motor->Iq_PID.ki = *(float *)(rxdata + 4);
+		motor->Iq_PID.kd = *(float *)(rxdata + 8);
+		motor->Iq_PID.output_max = *(float *)(rxdata + 12);
+		break;
+	case CMD_ID_PID_FDB:
+		motor->Id_PID.kp = *(float *)rxdata;
+		motor->Id_PID.ki = *(float *)(rxdata + 4);
+		motor->Id_PID.kd = *(float *)(rxdata + 8);
+		motor->Id_PID.output_max = *(float *)(rxdata + 12);
+		break;
+	case CMD_POSITION_PID_FDB:
+		motor->Position_PID.kp = *(float *)rxdata;
+		motor->Position_PID.ki = *(float *)(rxdata + 4);
+		motor->Position_PID.kd = *(float *)(rxdata + 8);
+		motor->Position_PID.output_max = *(float *)(rxdata + 12);
+		break;
+	default:
+		// Handle other commands if necessary
+		break;
 	}
 }
 
@@ -62,8 +83,8 @@ void HAL_FDCAN_RxFifo0Callback(FDCAN_HandleTypeDef *hfdcan, uint32_t RxFifo0ITs)
 		if(hfdcan->Instance == FDCAN1) //Slave Arm
 		{
 			HAL_FDCAN_GetRxMessage(hfdcan, FDCAN_RX_FIFO0, &RxHeader, RxData);
-			uint32_t cmd = RxHeader.Identifier & 0x003;
-			uint32_t device_id = RxHeader.Identifier & 0x7FA;
+			uint32_t cmd = RxHeader.Identifier & CMD_MASK;
+			uint32_t device_id = RxHeader.Identifier & DEVICE_ID_MASK;
 			Motor_Struct *pArm = NULL;
 			switch(device_id)
 			{
@@ -81,8 +102,8 @@ void HAL_FDCAN_RxFifo0Callback(FDCAN_HandleTypeDef *hfdcan, uint32_t RxFifo0ITs)
 		else if(hfdcan->Instance == FDCAN2) //Slave End
 		{
 			HAL_FDCAN_GetRxMessage(hfdcan, FDCAN_RX_FIFO0, &RxHeader, RxData);
-			uint32_t cmd = RxHeader.Identifier & 0x003;
-			uint32_t device_id = RxHeader.Identifier & 0x7FA;
+			uint32_t cmd = RxHeader.Identifier & CMD_MASK;
+			uint32_t device_id = RxHeader.Identifier & DEVICE_ID_MASK;
 			Motor_Struct *pEnd = NULL;
 			switch(device_id)
 			{
@@ -99,3 +120,6 @@ void HAL_FDCAN_RxFifo0Callback(FDCAN_HandleTypeDef *hfdcan, uint32_t RxFifo0ITs)
 		}
 	}
 }
+
+
+

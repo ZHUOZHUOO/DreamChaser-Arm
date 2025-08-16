@@ -82,10 +82,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AOTQELTS
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for FOC-DRV8323\Design Rule Check - PCB1.html
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Sources
 ParameterCount=0
