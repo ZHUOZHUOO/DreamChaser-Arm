@@ -1,0 +1,10 @@
+Change Component Designator: OldDesignator=R14 NewDesignator=R11
+Added Component: Designator=R14(R0402)
+Add component (AddParameter): Name = "W"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=DGND Pin=R14-1
+Change Net Name : Old Net Name=NetR14_2 New Net Name=NetR11_2
+Added Pin To Net: NetName=NetR14_2 Pin=R14-2
+Added Pin To Net: NetName=NetR14_2 Pin=SW1-1
+Added Pin To Net: NetName=NetR14_2 Pin=U4-31
+Added Net: Name=NetR14_2
+Added Member To Class: ClassName=Sheet1 Member=Component R14 200K¦¸

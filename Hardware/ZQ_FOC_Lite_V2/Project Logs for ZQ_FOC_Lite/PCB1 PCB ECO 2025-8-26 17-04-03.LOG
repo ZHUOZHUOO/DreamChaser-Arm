@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=DGND Pin=R11-1
+Removed Member From Class: ClassName=Sheet1 Member=R11
+Added Component: Designator=SW1(SW-SMD_6P-L5.4-W5.4-P1.27-LS8.4)
+Added Pin To Net: NetName=DGND Pin=SW1-4
+Added Pin To Net: NetName=DGND Pin=SW1-5
+Added Pin To Net: NetName=DGND Pin=SW1-6
+Added Pin To Net: NetName=NetSW1_1 Pin=SW1-1
+Added Pin To Net: NetName=NetSW1_1 Pin=U4-31
+Added Net: Name=NetSW1_1
+Added Pin To Net: NetName=NetSW1_2 Pin=SW1-2
+Added Pin To Net: NetName=NetSW1_2 Pin=U4-30
+Added Net: Name=NetSW1_2
+Added Pin To Net: NetName=NetSW1_3 Pin=SW1-3
+Added Pin To Net: NetName=NetSW1_3 Pin=U4-29
+Added Net: Name=NetSW1_3
+Added Member To Class: ClassName=Sheet1 Member=Component SW1 DSHP03TSGER
