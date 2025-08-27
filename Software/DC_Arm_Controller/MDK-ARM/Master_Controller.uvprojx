@@ -357,7 +357,7 @@
             </VariousControls>
           </Aads>
           <LDads>
-            <umfTarg>0</umfTarg>
+            <umfTarg>1</umfTarg>
             <Ropi>0</Ropi>
             <Rwpi>0</Rwpi>
             <noStLib>0</noStLib>
@@ -1697,12 +1697,7 @@
             <File>
               <FileName>OLED_Periph.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\OLED_Periph.c</FilePath>
-            </File>
-            <File>
-              <FileName>OLED_Periph.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\OLED_Periph.h</FilePath>
+              <FilePath>.\USER\Peripheral\OLED_Periph.c</FilePath>
             </File>
           </Files>
         </Group>

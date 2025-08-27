@@ -1,0 +1,66 @@
+# Details
+
+Date : 2025-08-16 16:48:40
+
+Directory h:\\ZHUOZHUOO--Github\\DreamChaser-Arm\\Software\\DC_Arm_Controller\\MDK-ARM\\USER
+
+Total : 51 files,  3934 codes, 1642 comments, 661 blanks, all 6237 lines
+
+[Summary](results.md) / Details / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
+
+## Files
+| filename | language | code | comment | blank | total |
+| :--- | :--- | ---: | ---: | ---: | ---: |
+| [MDK-ARM/USER/Algorithm/alg\_kf.c](/MDK-ARM/USER/Algorithm/alg_kf.c) | C | 174 | 69 | 32 | 275 |
+| [MDK-ARM/USER/Algorithm/alg\_kf.h](/MDK-ARM/USER/Algorithm/alg_kf.h) | C++ | 56 | 8 | 13 | 77 |
+| [MDK-ARM/USER/Algorithm/alg\_pid.c](/MDK-ARM/USER/Algorithm/alg_pid.c) | C | 291 | 49 | 35 | 375 |
+| [MDK-ARM/USER/Algorithm/alg\_pid.h](/MDK-ARM/USER/Algorithm/alg_pid.h) | C++ | 103 | 8 | 19 | 130 |
+| [MDK-ARM/USER/Algorithm/alg\_qekf.c](/MDK-ARM/USER/Algorithm/alg_qekf.c) | C | 286 | 81 | 59 | 426 |
+| [MDK-ARM/USER/Algorithm/alg\_qekf.h](/MDK-ARM/USER/Algorithm/alg_qekf.h) | C++ | 48 | 8 | 15 | 71 |
+| [MDK-ARM/USER/Algorithm/alg\_swf.c](/MDK-ARM/USER/Algorithm/alg_swf.c) | C | 18 | 0 | 8 | 26 |
+| [MDK-ARM/USER/Algorithm/alg\_swf.h](/MDK-ARM/USER/Algorithm/alg_swf.h) | C++ | 13 | 0 | 6 | 19 |
+| [MDK-ARM/USER/Library/lib\_buff.c](/MDK-ARM/USER/Library/lib_buff.c) | C | 49 | 52 | 10 | 111 |
+| [MDK-ARM/USER/Library/lib\_buff.h](/MDK-ARM/USER/Library/lib_buff.h) | C++ | 20 | 8 | 7 | 35 |
+| [MDK-ARM/USER/Library/lib\_crc.c](/MDK-ARM/USER/Library/lib_crc.c) | C | 120 | 49 | 10 | 179 |
+| [MDK-ARM/USER/Library/lib\_crc.h](/MDK-ARM/USER/Library/lib_crc.h) | C++ | 26 | 8 | 9 | 43 |
+| [MDK-ARM/USER/Library/lib\_filter.c](/MDK-ARM/USER/Library/lib_filter.c) | C | 57 | 39 | 7 | 103 |
+| [MDK-ARM/USER/Library/lib\_filter.h](/MDK-ARM/USER/Library/lib_filter.h) | C++ | 39 | 8 | 12 | 59 |
+| [MDK-ARM/USER/Library/lib\_math.c](/MDK-ARM/USER/Library/lib_math.c) | C | 136 | 63 | 14 | 213 |
+| [MDK-ARM/USER/Library/lib\_math.h](/MDK-ARM/USER/Library/lib_math.h) | C++ | 66 | 21 | 12 | 99 |
+| [MDK-ARM/USER/Main/DC\_Arm\_Comm.c](/MDK-ARM/USER/Main/DC_Arm_Comm.c) | C | 115 | 3 | 8 | 126 |
+| [MDK-ARM/USER/Main/DC\_Arm\_Comm.h](/MDK-ARM/USER/Main/DC_Arm_Comm.h) | C | 35 | 2 | 12 | 49 |
+| [MDK-ARM/USER/Main/DC\_Arm\_Control.c](/MDK-ARM/USER/Main/DC_Arm_Control.c) | C | 122 | 0 | 19 | 141 |
+| [MDK-ARM/USER/Main/DC\_Arm\_Control.h](/MDK-ARM/USER/Main/DC_Arm_Control.h) | C | 49 | 0 | 10 | 59 |
+| [MDK-ARM/USER/OLED/bmp.h](/MDK-ARM/USER/OLED/bmp.h) | C++ | 221 | 59 | 7 | 287 |
+| [MDK-ARM/USER/OLED/gui.c](/MDK-ARM/USER/OLED/gui.c) | C | 521 | 300 | 25 | 846 |
+| [MDK-ARM/USER/OLED/gui.h](/MDK-ARM/USER/OLED/gui.h) | C++ | 20 | 47 | 3 | 70 |
+| [MDK-ARM/USER/OLED/oled.c](/MDK-ARM/USER/OLED/oled.c) | C | 197 | 144 | 45 | 386 |
+| [MDK-ARM/USER/OLED/oled.h](/MDK-ARM/USER/OLED/oled.h) | C++ | 34 | 54 | 11 | 99 |
+| [MDK-ARM/USER/OLED/oled\_spi.c](/MDK-ARM/USER/OLED/oled_spi.c) | C | 19 | 54 | 2 | 75 |
+| [MDK-ARM/USER/OLED/oled\_spi.h](/MDK-ARM/USER/OLED/oled_spi.h) | C++ | 11 | 53 | 6 | 70 |
+| [MDK-ARM/USER/OLED/oledfont.h](/MDK-ARM/USER/OLED/oledfont.h) | C++ | 277 | 169 | 12 | 458 |
+| [MDK-ARM/USER/OLED/sys.c](/MDK-ARM/USER/OLED/sys.c) | C | 5 | 0 | 4 | 9 |
+| [MDK-ARM/USER/OLED/sys.h](/MDK-ARM/USER/OLED/sys.h) | C++ | 37 | 8 | 19 | 64 |
+| [MDK-ARM/USER/Peripheral/AD8402\_Periph.c](/MDK-ARM/USER/Peripheral/AD8402_Periph.c) | C | 41 | 0 | 10 | 51 |
+| [MDK-ARM/USER/Peripheral/AD8402\_Periph.h](/MDK-ARM/USER/Peripheral/AD8402_Periph.h) | C++ | 38 | 4 | 17 | 59 |
+| [MDK-ARM/USER/Peripheral/LM25145\_Periph.c](/MDK-ARM/USER/Peripheral/LM25145_Periph.c) | C | 15 | 0 | 5 | 20 |
+| [MDK-ARM/USER/Peripheral/LM25145\_Periph.h](/MDK-ARM/USER/Peripheral/LM25145_Periph.h) | C++ | 18 | 0 | 9 | 27 |
+| [MDK-ARM/USER/Peripheral/WS2812\_Periph.c](/MDK-ARM/USER/Peripheral/WS2812_Periph.c) | C | 32 | 2 | 13 | 47 |
+| [MDK-ARM/USER/Peripheral/WS2812\_Periph.h](/MDK-ARM/USER/Peripheral/WS2812_Periph.h) | C++ | 21 | 0 | 9 | 30 |
+| [MDK-ARM/USER/System/sys\_dwt.c](/MDK-ARM/USER/System/sys_dwt.c) | C | 118 | 8 | 25 | 151 |
+| [MDK-ARM/USER/System/sys\_dwt.h](/MDK-ARM/USER/System/sys_dwt.h) | C++ | 39 | 8 | 12 | 59 |
+| [MDK-ARM/USER/Utility/util\_adc.c](/MDK-ARM/USER/Utility/util_adc.c) | C | 1 | 0 | 2 | 3 |
+| [MDK-ARM/USER/Utility/util\_adc.h](/MDK-ARM/USER/Utility/util_adc.h) | C++ | 12 | 0 | 6 | 18 |
+| [MDK-ARM/USER/Utility/util\_fdcan.c](/MDK-ARM/USER/Utility/util_fdcan.c) | C | 40 | 0 | 10 | 50 |
+| [MDK-ARM/USER/Utility/util\_fdcan.h](/MDK-ARM/USER/Utility/util_fdcan.h) | C++ | 15 | 1 | 6 | 22 |
+| [MDK-ARM/USER/Utility/util\_gpio.c](/MDK-ARM/USER/Utility/util_gpio.c) | C | 27 | 33 | 9 | 69 |
+| [MDK-ARM/USER/Utility/util\_gpio.h](/MDK-ARM/USER/Utility/util_gpio.h) | C++ | 24 | 8 | 8 | 40 |
+| [MDK-ARM/USER/Utility/util\_pwm.c](/MDK-ARM/USER/Utility/util_pwm.c) | C | 53 | 37 | 7 | 97 |
+| [MDK-ARM/USER/Utility/util\_pwm.h](/MDK-ARM/USER/Utility/util_pwm.h) | C++ | 31 | 8 | 10 | 49 |
+| [MDK-ARM/USER/Utility/util\_spi.c](/MDK-ARM/USER/Utility/util_spi.c) | C | 105 | 74 | 18 | 197 |
+| [MDK-ARM/USER/Utility/util\_spi.h](/MDK-ARM/USER/Utility/util_spi.h) | C++ | 21 | 8 | 8 | 37 |
+| [MDK-ARM/USER/Utility/util\_uart.c](/MDK-ARM/USER/Utility/util_uart.c) | C | 96 | 72 | 16 | 184 |
+| [MDK-ARM/USER/Utility/util\_uart.h](/MDK-ARM/USER/Utility/util_uart.h) | C++ | 19 | 8 | 7 | 34 |
+| [MDK-ARM/USER/configure.h](/MDK-ARM/USER/configure.h) | C++ | 3 | 7 | 3 | 13 |
+
+[Summary](results.md) / Details / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
