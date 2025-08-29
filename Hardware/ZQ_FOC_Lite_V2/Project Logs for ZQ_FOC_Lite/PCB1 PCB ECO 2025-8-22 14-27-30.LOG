@@ -1,7 +1,0 @@
-Removed Pin From Net: NetName=PGND Pin=H1-7
-Removed Pin From Net: NetName=PGND Pin=H1-8
-Removed Pin From Net: NetName=PGND Pin=H2-7
-Removed Pin From Net: NetName=PGND Pin=H2-8
-Removed Pin From Net: NetName=AGND Pin=R20-1
-Removed Pin From Net: NetName=AGND Pin=R20-2
-Removed Member From Class: ClassName=Sheet1 Member=R20
