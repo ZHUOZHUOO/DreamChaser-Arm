@@ -14,8 +14,8 @@ void AD8402_SetValue(AD8402_Pin_Link_Type link_type, float* ohm)
 	}
 	else if(link_type == AW)		// Set AD8402 Pin A and W
 	{
-		value[0] = AD8402_TYPE - AD8402_DecoderValue(ohm[0]);
-		value[1] = AD8402_TYPE - AD8402_DecoderValue(ohm[1]);
+		value[0] = 255 - AD8402_DecoderValue(ohm[0]);
+		value[1] = 255 - AD8402_DecoderValue(ohm[1]);
 	}
 
 	AD8402_Periph_DATA[0] = 0x00;

@@ -1,6 +1,5 @@
 #include "LM25145_Periph.h"
-
-float DCDC_Voltage[2] = {9.5f, 18.0f}; // 23.5V, 12.0V
+float DCDC_Voltage[2] = {11.0f, 11.0f}; // 23.5V, 12.0V
 
 void DCDC_SetVoltage(float* value)
 {

@@ -9,8 +9,9 @@ extern "C" {
 #include "spi.h"
 #include "cmsis_os.h"
 
-#define AD8402_TYPE AD8402ARZ10 // 10K
+#define AD8402_TYPE AD8402ARZ10 // 10k
 #define AD8402ARZ1   1
+#define AD8402ARZ8 8
 #define AD8402ARZ10 10
 #define AD8402ARZ50 50
 #define AD8402ARZ100 100
