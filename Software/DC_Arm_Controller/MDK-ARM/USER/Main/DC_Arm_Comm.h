@@ -23,7 +23,7 @@ extern "C" {
 
 #define FILTER_ID_1     0x500
 #define FILTER_ID_2     0x780
-#define DEVICE_ID_MASK  0x7FA
+#define DEVICE_ID_MASK  0x7F0
 #define CMD_MASK        0x00F
 
 //-----------FDCAN Command Setting------------//
